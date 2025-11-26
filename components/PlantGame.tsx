@@ -218,7 +218,7 @@ const InteractiveDemo: React.FC = () => {
              <div className="flex items-center gap-3">
                <div className={`w-2 h-2 rounded-full animate-pulse ${isWon ? 'bg-green-500' : 'bg-amber-500'}`}></div>
                <span className="text-xs font-mono text-gray-300 tracking-widest uppercase">
-                 {isWon ? 'BLOOM_SEQUENCE_INIT' : 'ARBOREAL_NAV_SYS'}
+                 {isWon ? 'Blossom' : 'Play Bloom'}
                </span>
              </div>
              <MapIcon size={16} className="text-amber-500" />
@@ -251,7 +251,7 @@ const InteractiveDemo: React.FC = () => {
                         key={`${x}-${y}`} 
                         className={`
                           relative rounded-sm transition-all duration-300
-                          ${isTraversed && !isWon ? 'bg-amber-600/80' : 'bg-amber-900/40'}
+                          ${isTraversed && !isWon ? 'bg-green-600/80' : 'bg-amber-900/40'}
                           ${isWon && isTraversed ? 'bg-green-900/40' : ''}
                         `}
                       >

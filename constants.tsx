@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     techStack: ["Unity", "AR Foundation", "Mapbox SDK", "C#"],
     image: "https://picsum.photos/id/1033/800/600",
     demoLink: "#",
-    repoLink: "https://github.com",
+    repoLink: "#",
   },
   {
     id: "p2",
@@ -61,14 +61,14 @@ export const PROJECTS: Project[] = [
     category: "Graphics / OpenGL",
     problem: "Standard engines lacked specific physically-based rendering features needed for simulation data.",
     contributions: [
-      "Built a custom deferred rendering pipeline using OpenGL 4.5.",
-      "Implemented PBR materials, shadow mapping, and screen-space ambient occlusion (SSAO).",
-      "Developed a dynamic shader hot-reloading system for rapid iteration."
+      "Developed custom Scanline Algorithm for rasterization with complete transformation pipeline (scaling, rotation, translation).",
+      "Integrated multiple shading models (Flat, Phong, Gouraud) with PPM image textures, achieving photorealistic rendering quality.",
+      "Created stereo rendering and ray tracing systems with simplex noise generation for immersive 3D visualisation."
     ],
     techStack: ["C++", "OpenGL", "GLSL", "CMake"],
     image: "https://picsum.photos/id/134/800/600",
     demoLink: "#",
-    repoLink: "https://github.com",
+    repoLink: "https://github.com/SrijaMadarapu8/3D-Graphics-Rendering",
   },
   {
     id: "p3",
@@ -78,12 +78,12 @@ export const PROJECTS: Project[] = [
     contributions: [
       "Implemented RRT* algorithm for optimal pathfinding in 3D space.",
       "Integrated Kalman Filters for sensor fusion and noise reduction.",
-      "Visualized real-time trajectory planning in a Unity-based digital twin."
+      "Created real-time visualizations for trajectory planning and execution."
     ],
-    techStack: ["Python", "ROS", "Unity", "NumPy"],
+    techStack: ["Python", "ROS", "AIKIDO", "NumPy"],
     image: "https://picsum.photos/id/20/800/600",
     demoLink: "#",
-    repoLink: "https://github.com",
+    repoLink: "https://github.com/SrijaMadarapu8/Robotic-Hand-Path-Planning",
   },
   {
     id: "p4",
@@ -98,7 +98,7 @@ export const PROJECTS: Project[] = [
     techStack: ["Python", "OpenCV", "MeshLab", "Colmap"],
     image: "https://picsum.photos/id/250/800/600",
     demoLink: "#",
-    repoLink: "https://github.com",
+    repoLink: "https://github.com/SrijaMadarapu8/Computer-Vision",
   },
   {
     id: "p5",
@@ -113,7 +113,7 @@ export const PROJECTS: Project[] = [
     techStack: ["TouchDesigner", "GLSL", "Kinect Azure", "Python"],
     image: "https://picsum.photos/id/1042/800/600",
     demoLink: "#",
-    repoLink: "https://github.com",
+    repoLink: "#",
   },
   {
     id: "p6",

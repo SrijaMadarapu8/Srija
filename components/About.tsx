@@ -16,7 +16,7 @@ const About: React.FC = () => {
             {/* Stylized Profile Image Placeholder */}
             <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-gray-200 dark:border-gray-800 shadow-lg dark:shadow-none">
               <img 
-                src="./pic1.jpg" 
+                src="./src/assets/pic1.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
