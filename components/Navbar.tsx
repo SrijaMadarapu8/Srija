@@ -46,7 +46,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, currentView, onNavi
         <div className="hidden md:flex items-center space-x-12 lg:space-x-16">
           <button
              onClick={() => onNavigate('home')}
-             className="text-base text-gray-900 dark:text-white font-bold tracking-widest hover:text-cyan-600 dark:hover:text-neon-cyan transition-colors"
+             className="text-base text-gray-600 dark:text-gray-300 hover:text-neon-cyan dark:hover:text-neon-cyan transition-colors tracking-[0.15em] uppercase font-medium"
           >
             HOME
           </button>

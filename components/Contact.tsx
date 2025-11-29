@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
                 </p>
                 <div className="mt-4 flex gap-4">
                   <a 
-                    href="/srijam1.pdf" 
+                    href="/Srija_Madarapu_resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-xs text-gray-500 hover:text-black dark:hover:text-white uppercase tracking-widest transition-colors cursor-pointer"
