@@ -29,8 +29,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 relative overflow-hidden bg-white dark:bg-black transition-colors duration-300">
-       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-200 via-gray-50 to-white dark:from-gray-800 dark:via-black dark:to-black opacity-50"></div>
+    <section id="contact" className="py-24 px-6 relative overflow-hidden bg-cream dark:bg-black transition-colors duration-300">
+       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cream via-cream to-white dark:from-gray-800 dark:via-black dark:to-black opacity-50"></div>
        
       <div className="max-w-4xl mx-auto relative z-10">
         <div className="text-center mb-12">

@@ -6,14 +6,15 @@ import { ArrowRight } from 'lucide-react';
 
 interface ProjectsProps {
   onViewAll: () => void;
+  onProjectClick: (id: string) => void;
 }
 
-const Projects: React.FC<ProjectsProps> = ({ onViewAll }) => {
+const Projects: React.FC<ProjectsProps> = ({ onViewAll, onProjectClick }) => {
   // Show only first 3 projects on the home page
   const displayedProjects = PROJECTS.slice(0, 3);
 
   return (
-    <section id="projects" className="py-24 px-6 relative z-10 bg-gray-50 dark:bg-tech-dark transition-colors duration-300">
+    <section id="projects" className="py-24 px-6 relative z-10 bg-cream dark:bg-tech-dark transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
           <motion.div 
@@ -38,7 +39,12 @@ const Projects: React.FC<ProjectsProps> = ({ onViewAll }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {displayedProjects.map((project, index) => (
-            <ProjectCard key={project.id} project={project} index={index} />
+            <ProjectCard 
+              key={project.id} 
+              project={project} 
+              index={index} 
+              onClick={() => onProjectClick(project.id)} 
+            />
           ))}
         </div>
         

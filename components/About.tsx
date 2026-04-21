@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24 px-6 bg-gray-50 dark:bg-[#080c16] transition-colors duration-300">
+    <section id="about" className="py-24 px-6 bg-cream dark:bg-[#080c16] transition-colors duration-300">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <motion.div 

@@ -5,11 +5,13 @@ export interface Project {
   title: string;
   category: string;
   problem: string;
+  description: string;
   contributions: string[];
   techStack: string[];
   image: string;
   demoLink?: string;
   repoLink?: string;
+  referenceLink?: string;
 }
 
 export interface SkillCategory {

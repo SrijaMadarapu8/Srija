@@ -20,7 +20,7 @@ const InteractiveBackground: React.FC<InteractiveBackgroundProps> = ({ theme }) 
     
     // Define properties based on theme
     const properties = {
-      bgColor: theme === 'dark' ? 'rgba(3, 7, 18, 1)' : 'rgba(249, 250, 251, 1)', // tech-dark vs gray-50
+      bgColor: theme === 'dark' ? 'rgba(3, 7, 18, 1)' : 'rgba(253, 252, 240, 1)', // tech-dark vs gray-50
       particleColor: theme === 'dark' ? 'rgba(6, 182, 212, 0.5)' : 'rgba(8, 145, 178, 0.3)', // neon-cyan vs darker cyan
       particleRadius: 2,
       particleCount: 60,
